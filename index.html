@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <h1 class="titulo">Your Encrypt Secret</h1>
+
+    <main class="main">
+        <section class="form box">
+            <form action="">
+                <label>Coloca solo letras minúscula sin acento</label>
+                <br><br>
+                <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese texto">
+                <br><br><br>
+                <input class="btn" type="button" value="Encrypt" id="btn-encriptar">
+                <input class="btn" type="button" value="Decrypt" id="btn-desencriptar">
+            </form>
+        </section>
+
+        <section class="msg box">
+            <h2>Mensaje encriptado: </h2>
+            <input class="text-input-salida" type="text" id="msg">
+            <input class="btn" type="button" value="Copy" id="btn-copy">
+        </section>
+    </main>
+
+</body>
+
+</html>
