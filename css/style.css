@@ -1,0 +1,46 @@
+body {
+    background: url("https://www.wallpapertip.com/wmimgs/37-375773_dark-purple-and-turquoise-background.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btnprin {
+    margin-left: 20px;
+    height: 35px;
+    width: 75px;
+    border-radius: 25% 10%;
+    box-shadow: 5px 5px 10px;
+}
+
+.form {
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.msg {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.btncopy {
+
+    margin-left: 20px;
+    height: 35px;
+    width: 75px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 25% 10%;
+}
+
+.text-input,
+.text-input-salida {
+    width: 50%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: #bdbfbf;
+    box-shadow: 5px 5px 10px;
+}
