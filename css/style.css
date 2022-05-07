@@ -44,3 +44,14 @@ body {
     background-color: #bdbfbf;
     box-shadow: 5px 5px 10px;
 }
+
+@media (max-width: 500px) {
+
+    body {
+        background: url("https://www.wallpapertip.com/wmimgs/37-375773_dark-purple-and-turquoise-background.jpg");
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
