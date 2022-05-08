@@ -3,17 +3,15 @@ body {
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
 }
-
-
-.btnprin {
-    margin-left: 20px;
-    height: 35px;
-    width: 75px;
-    border-radius: 25% 10%;
-    box-shadow: 5px 5px 10px;
+.top{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 10%;
+    width: 35%;
+    float: right;
 }
-
 .form {
     margin-top: 2%;
     margin-left: 2%;
@@ -25,15 +23,27 @@ body {
     margin-top: 5%;
 }
 
-.btncopy {
-
+.btncopy , .btnprin {
+    font-weight: 700;
     margin-left: 20px;
     height: 35px;
-    width: 75px;
+    width: 85px;
     box-shadow: 5px 5px 10px;
     border-radius: 25% 10%;
+    background-color: #95b8f6;
 }
-
+/*Animacion de los botones al pasar el curso y al momento de precionar*/
+.btncopy:hover,.btnprin:hover {
+    background-color: #7ff9c7;
+    color: rgb(0, 0, 0);
+}
+.btncopy:active, .btnprin:active {
+    background-color: #0bb9d8;
+    box-shadow: 0 5px rgb(0, 0, 0);
+    color: black;
+    transform: translateY(4px);
+  }
+/*Posición y tamaño de los imput para capturar la palabra y mostrar el encriptado*/
 .text-input,
 .text-input-salida {
     width: 50%;
@@ -43,14 +53,23 @@ body {
     border-radius: 10px;
     background-color: #bdbfbf;
     box-shadow: 5px 5px 10px;
+    opacity: 0.8;
 }
-
+/*Visualización para mobil */
 @media (max-width: 500px) {
 
     body {
         background: url("https://www.wallpapertip.com/wmimgs/37-375773_dark-purple-and-turquoise-background.jpg");
         color: white;
         background-repeat: no-repeat;
+    }
+
+    .top{
+        position: absolute;
+        margin-left: 62%;
+        margin-top: 25%;
+        width: 35%;
+        float: right;
     }
 
 }
