@@ -5,6 +5,12 @@ body {
     background-size: cover;
     font-family: sans-serif;
 }
+.titulo{
+    background: rgba(229, 30, 133, 0.69);
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 250%;
+}
 .top{
     position: absolute;
     margin-left: 62%;
